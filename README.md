@@ -15,4 +15,10 @@ Following parameters should be reviewed before running the tests.
     3. GROUP_ID_CONFIG           ## Consumer Group Name. Default is "consumerGroup1";
 	4. MAX_NO_MESSAGE_FOUND_COUNT  ## Consumer will try to attempt retriving messages from TOPIC_NAME by POLLING and waiting for   POLL_DURATION milliseconds. Consumer will try MAX_NO_MESSAGE_FOUND_COUNT retrivels and exit when this threashold is breached. Consumer will fetch maximum  MAX_POLL_RECORDS records from TOPIC_NAME;
 	
-  
+<b>Initial setup</b>  
+
+1. Download and copy "kafka-jmeter-tester-v1.jar" file to %JMETER_HOME%/lib/ext/
+2. Add "kafka-clients-2.5.0.jar" to %JMETER_HOME%/lib/ext/
+3. Run jmeter.bat to start Jmeter.
+4. Add "Java Sampler" for Producer. 
+
