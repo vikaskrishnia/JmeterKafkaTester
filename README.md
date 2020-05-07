@@ -15,6 +15,7 @@ Follow these steps to create your first test plan. You can also use the attached
 <b>ReadMe</b>
 
 By default it should populate following parameters with default values. Ensure these are reviewed and updated as per the testing environment.
+
 	KAFKA_BROKERS             	## Kafka Broker hostname and port number.    
 	TOPIC_NAME                	## Topic Name to send and receive messages
 	GROUP_ID_CONFIG           	## Consumer Group Name. Default is "consumerGroup1";
