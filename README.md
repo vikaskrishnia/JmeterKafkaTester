@@ -2,6 +2,7 @@
 Test Kafka Producer and Kafka Consumer from Jmeter using "Java Sampler".
 
 <b>ReadMe</b>
+
 <b>Prerequisites</b>
 Below are the prerequisites to setup Jmeter for kafka testing.
 1.	Running Kafka Server is available along with broker details.
